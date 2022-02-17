@@ -74,6 +74,7 @@ reset = () =>{
    let {handleChangeOne, handleChangeTwo,sum, sub, mult, div, reset} =this
     return(
       <div className='calc'>
+        <h1>Calculadora</h1>
         <div className='calc-content'>
           <div className="calc-screen">
             <div className='calc-result'>
